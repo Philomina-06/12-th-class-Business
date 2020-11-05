@@ -1,0 +1,309 @@
+/* font-family: 'Roboto', sans-serif;  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Top-header{
+    background-color: #f0f2f4;
+    font-family: 'Roboto', sans-serif;
+}
+.Top-header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;    
+}
+.Top-header ul li{
+    
+    font-size: 16px;  
+    color: #424242; 
+}
+.Top-header ul li i{
+    padding-right: 10px;    
+}
+.fb{
+    color: #1287bf!important;
+    font-size: 20px;
+    padding-right: 0!important;
+}
+/* menu part start here  */
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #424242;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.btn-danger{
+    color: white;
+    background-color: #de2b24;
+    border-color: #de2b24;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.btn-danger:hover{
+    background-color: #96110c;
+    border-color: #96110c;
+    color: white;
+    
+}
+/* menu part end here  */
+/* banner part start here  */
+.btn-warning{
+    color: white;
+    background-color: #f8cd53;
+    border-color: #f8cd53;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.btn-warning:hover{
+    background-color: #bd8f13;
+    border-color: #bd8f13;
+    color: white;
+    
+}
+.banner{
+    background-image: url(../images/baner-picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.banner p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hg{
+    min-height: 80vh;
+}
+/* banner part end here  */
+
+/* about us section start here  */
+.about-us{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.about-us .heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color: #424242;;
+    transition: .4s all ease-in-out;
+    
+}
+.about-us .heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color:#424242;;
+    transition: .4s all ease-in-out;
+    
+}
+.about-us :hover .heading::before{
+    width: 30px;
+}
+.about-us :hover .heading::after{
+    width: 30px;
+}
+.about-us h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: #424242;
+    font-weight: 800;
+    
+}
+.about-us h5{
+    font-size: 20px;
+    color: #424242;
+    font-weight: 500;
+    
+}
+.about-us h3{
+    text-transform: capitalize;
+    font-size: 25px; 
+    color: #424242;
+    font-weight: 600;   
+}
+.about-us p{
+    font-size: 15px;
+    color: #5c5c5c;
+    
+}
+.about-us i{
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+.about-us i .fb{
+    color: #688fca;
+
+}
+.book{
+    color: #de5940;
+    
+}
+.chat{
+    color: #f8cd53;
+    
+}
+
+.hg-2{
+    margin-top: 50px;
+}
+
+/* about us section end here  */
+/* approach section start here  */
+.approach{
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.approach h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: #424242;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.approach h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.approach .heading{
+    padding-bottom: 20px;   
+    
+
+}
+
+.approach .heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+    
+}
+.approach .heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+    
+}
+.approach :hover .heading::before{
+    width: 30px;
+}
+.approach :hover .heading::after{
+    width: 30px;
+}
+.img{
+    position: relative;
+    padding: 0;
+    
+
+}
+.step{
+    position: absolute;
+    top: 25%;
+    right: -25%;
+    background-color: red;
+    transform: translate(-50%);
+    padding: 20px 0;
+    width: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.step h3{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.step p{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.bg{
+    background-color: #ffffff;   
+    margin: 30px;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3%;
+    
+}
+.content h4{
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+    color: #424242;
+
+}
+.content p{
+    color: #5c5c5c;
+    font-weight: 500;
+
+}
+    
+
+.content-align{
+    text-align: right;
+    margin-right: 70px;
+
+}
+.img-align{
+    position: relative;
+
+}
+.step-align{
+    position: absolute;
+    left: 0;
+    top: 25%;
+
+}
+
+/* approach section end here  */
